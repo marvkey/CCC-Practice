@@ -3,6 +3,7 @@
 #include <vector>
 #include <stdio.h>
 #include <iomanip>      // std::setprecision
+// DONE
 long double CalculateArea(std::vector<int>& height, std::vector<int>& width) {
 	long double accumulate = 0.0f;
 	for (size_t i = 0; i < height.size(); i++) {
@@ -13,6 +14,7 @@ long double CalculateArea(std::vector<int>& height, std::vector<int>& width) {
 	}
 	return accumulate;
 }
+/*
 int main() {
 	int positiveNumber;
 	scanf("%i", &positiveNumber);
@@ -32,3 +34,4 @@ int main() {
 	}
 	std::cout << std::setprecision(10) << CalculateArea(heights, width);
 }
+*/
